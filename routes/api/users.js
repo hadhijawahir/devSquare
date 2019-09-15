@@ -8,11 +8,11 @@ const jwt = require('jsonwebtoken');
 const keys = require('../../config/keys');
 const passport = require('passport');
 
-//  Load Input Validation
+// Load Input Validation
 const validateRegisterInput = require('../../validation/register');
 const validateLoginInput = require('../../validation/login');
 
-//Load User Model
+// Load User Model
 const User = require('../../models/User');
 
 
